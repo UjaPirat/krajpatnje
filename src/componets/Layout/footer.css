@@ -1,0 +1,16 @@
+.footer {
+  background: var(--teal);
+  height: 64px;
+  flex: 0 1 64px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.footer div {
+  color: var(--white);
+}
+
+.footer .footer-name {
+  font-weight: 600;
+}

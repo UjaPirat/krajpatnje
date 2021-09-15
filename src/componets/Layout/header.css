@@ -1,0 +1,43 @@
+.header {
+  background: var(--navy);
+  height: 64px;
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.header .logo {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 24px;
+  align-self: center;
+  padding: 4px 12px;
+  text-transform: uppercase;
+}
+
+.header nav {
+  display: flex;
+  width: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 0 4px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 90px;
+
+  transition: background 0.5s;
+}
+
+.header a:hover {
+  background: var(--blue);
+}
+
+.header .login-register {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

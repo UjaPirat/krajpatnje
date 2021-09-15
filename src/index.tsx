@@ -1,14 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-import { App } from './App';
-
-import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { render } from 'react-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-ReactDOM.render(
+// Pages
+import { Home } from './pages';
+
+// Style
+import './index.css';
+
+render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="*">
+          {/* todo:  make unique 404 page component */}
+          <div>404 Not found</div>
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );
