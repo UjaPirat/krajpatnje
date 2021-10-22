@@ -8,45 +8,6 @@ const Home: React.FC = () => {
     <Layout>
       <div>
         <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
-        <p>Home, Kure</p>
       </div>
     </Layout>
   );

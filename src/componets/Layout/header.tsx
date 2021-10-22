@@ -7,7 +7,7 @@ import './header.css';
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <div className="logo">Ujafon</div>
+      <div className="logo"></div>
       <nav>
         <Link to="/">Početna</Link>
         <Link to="/proizvodi">Proizvodi</Link>
